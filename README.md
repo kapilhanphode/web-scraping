@@ -1,14 +1,14 @@
 # Web-Scraping-Project
 
-## Web Scraping has many names, such as Web Harvesting, Screen Scraping, and others. It is a method of extracting large quantities of data from websites and storing it at a particular location (a local file in your computer or a database in a table). 
+ Web Scraping has many names, such as Web Harvesting, Screen Scraping, and others. It is a method of extracting large quantities of data from websites and storing it at a particular location (a local file in your computer or a database in a table). 
 
-## First, we need to navigate to the target webpage by making HTTP requests and downloading the response.
+# The web data scraping process
+## If you do it yourself using website scraping tools
+## This is what a general DIY web scraping process looks like:
 
-So start with importing the required libraries (i.e., requests and BeautifulSoup). Now, setting up the URL and header variable. The first variable reserve the URLs to crawl, and the second variable reserve your request User-agent id, which is for authentication at the time of making HTTP requests.
+Identify the target website
+Collect URLs of the pages where you want to extract data from
+Make a request to these URLs to get the HTML of the page
+Use locators to find the data in the HTML
+Save the data in a JSON or CSV file or some other structured format
 
-# Importing required libraries
-from flask import Flask, render_template, request,jsonify
-from flask_cors import CORS,cross_origin
-import requests
-from bs4 import BeautifulSoup as bs
-from urllib.request import urlopen as uReq
