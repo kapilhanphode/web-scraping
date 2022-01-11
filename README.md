@@ -6,9 +6,9 @@
 ## If you do it yourself using website scraping tools
 ## This is what a general DIY web scraping process looks like:
 
-Identify the target website
-Collect URLs of the pages where you want to extract data from
-Make a request to these URLs to get the HTML of the page
-Use locators to find the data in the HTML
+Identify the target website <br />
+Collect URLs of the pages where you want to extract data from <br />
+Make a request to these URLs to get the HTML of the page <br />
+Use locators to find the data in the HTML <br />
 Save the data in a JSON or CSV file or some other structured format
 
